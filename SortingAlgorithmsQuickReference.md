@@ -6,15 +6,20 @@ This is a quick reference guide for the sorting algorithms covered in University
 ####Listed Sorting Algorithms
 
 **Elementary**
-	- Bubble Sort
-	- Selection Sort
-	- Insertion Sort
-	- Bucket Sort
+```
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Bucket Sort
+```
+
 **High Performance**
-	- Quick Sort
-	- Merge Sort
-	- Heap Sort
-	- Radix Sort... coming soon
+```
+- Quick Sort
+- Merge Sort
+- Heap Sort
+- Radix Sort... coming soon
+```
 
 ##Complexity and Big O
 

@@ -3,20 +3,21 @@
 ##Overview
 This is a quick reference guide for the sorting algorithms covered in University of Michigan's EECS 281 course.
 
-####What this covers:
+**Elementary Sorting Algorithms:**
+```
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Bucket Sort
+```
 
-- **Elementary:**
-	- Bubble Sort
-	- Selection Sort
-	- Insertion Sort
-	- Bucket Sort
-
-- **High Performance:**
-	- Quick Sort
-	- Merge Sort
-	- Heap Sort
-	- Radix Sort... coming soon
-
+**High Performance Algorithms:**
+```
+- Quick Sort
+- Merge Sort
+- Heap Sort
+- Radix Sort... coming soon
+```
 
 ####Important Terms
 - **Stable:** Maintains relative order of items with equal values.

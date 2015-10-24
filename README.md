@@ -24,6 +24,20 @@ High Performance Algorithms:
 - **Space complexity:** Amount of working storage required by algorithm at any **point** in time.
 - **Big-O:** The limiting behavior of a function as the argument approaches infinity or an *upper-bound*.
 
+##Quick Lookup Table
+
+| Algorithm  |     Best Time    |     Ave Time     | Worst Time       | Space     | Characteristics  |
+|------------|:----------------:|:----------------:|------------------|-----------|------------------|
+| Bubble     |       O(n)       | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   | stable, adaptive |
+| Selection  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   |        n/a       |
+| Insertion  |       O(n)       | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   | stable, adaptive |
+| Bucket     |     O(n + k)     |     O(n + k)     | O(n<sup>2</sup>) |    O(n)   |      stable      |
+| Quick      |    O(n log(n))   |    O(n log(n))   | O(n<sup>2</sup>) | O(log(n)) |        n/a       |
+| Merge      |    O(n log(n))   |    O(n log(n))   |    O(n log(n))   |    O(n)   |      stable      |
+| Heap       |    O(n log(n))   |    O(n log(n))   |    O(n log(n))   |    O(1)   |        n/a       |
+| Radix      |                  |                  |                  |           |                  |
+
+
 ##The Sorting Algorithms
 Provided below is a list of the sorting algorithms mentioned above. Each algorithm section is accompanied by a **description** of how the algorithm works (using **<** comparison - sorting smallest to largest), the Big-O **time complexity** of the algorithm, and the Big-O **space complexity**.
 
@@ -95,17 +109,3 @@ Heap sort is **not stable** and **not really adaptive**. Heap sort is accomplish
 
 ####Radix Sort
  - Soon
-
-
-##Quick Lookup Table
-
-| Algorithm  |     Best Time    |     Ave Time     | Worst Time       | Space     | Characteristics  |
-|------------|:----------------:|:----------------:|------------------|-----------|------------------|
-| Bubble     |       O(n)       | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   | stable, adaptive |
-| Selection  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   |        n/a       |
-| Insertion  |       O(n)       | O(n<sup>2</sup>) | O(n<sup>2</sup>) |    O(1)   | stable, adaptive |
-| Bucket     |     O(n + k)     |     O(n + k)     | O(n<sup>2</sup>) |    O(n)   |      stable      |
-| Quick      |    O(n log(n))   |    O(n log(n))   | O(n<sup>2</sup>) | O(log(n)) |        n/a       |
-| Merge      |    O(n log(n))   |    O(n log(n))   |    O(n log(n))   |    O(n)   |      stable      |
-| Heap       |    O(n log(n))   |    O(n log(n))   |    O(n log(n))   |    O(1)   |        n/a       |
-| Radix      |                  |                  |                  |           |                  |

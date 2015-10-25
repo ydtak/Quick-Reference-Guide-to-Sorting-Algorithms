@@ -1,5 +1,6 @@
 #include "quicksort.h"
 #include "mergesort.h"
+#include "heapsort.h"
 using namespace std;
 
 /**
@@ -17,7 +18,7 @@ void printList(vector<int> &vec, string intro);
 int main() {
     //create test lists
     vector<int> test = {0, -3, 7, 6, 6, 5, 10};
-    vector<int> test1 = test;
+    vector<int> test1 = test, test2 = test;
 
     //display unsorted list
     printList(test, "Original: ");
@@ -29,6 +30,10 @@ int main() {
     //quick sort
     quicksort(test1);
     printList(test1, "Quicksort: ");
+
+    //heap sort
+    heapsort(test2);
+    printList(test2, "Heapsort: ");
 
     return 0;
 }

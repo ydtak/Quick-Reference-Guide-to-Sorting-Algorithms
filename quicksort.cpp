@@ -10,7 +10,9 @@ using namespace std;
 
 
 void quicksort(vector<int> &vec) {
-    quicksort(vec, 0, vec.size() - 1);
+    if (!vec.empty()) {
+        quicksort(vec, 0, vec.size() - 1);
+    }
 }
 
 

@@ -1,11 +1,18 @@
+/**
+ * heapsort.cpp
+ *
+ * Daniel Takayama
+ * October 24, 2015
+ */
+
 #include "heapsort.h"
 using namespace std;
 
 
 void heapsort(vector<int> &vec) {
-    //make vec into heap
-    heapify(vec);
+    //make vec into min heap
     vector<int> sorted;
+    heapify(vec);
 
     //repeatedly pop max element off heap and push into sorted list
     while (vec.size() != 1) {
@@ -23,7 +30,7 @@ void siftDown(vector<int> &vec, size_t k) {
         size_t j = 2 * size_t(k);
         if (j < size && vec[j] > vec[j + 1]) j++;
         if (vec[j] > vec[k]) break;
-        std::swap(vec[k], vec[j]);
+        swap(vec[k], vec[j]);
         k = j;
     }
 }

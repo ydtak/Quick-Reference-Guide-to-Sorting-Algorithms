@@ -1,3 +1,10 @@
+/**
+ * quicksort.cpp
+ *
+ * Daniel Takayama
+ * October 24, 2015
+ */
+
 #include "quicksort.h"
 using namespace std;
 

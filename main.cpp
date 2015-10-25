@@ -1,3 +1,13 @@
+/**
+ * main.cpp
+ *
+ * This program contains the main function used
+ * for testing sample sort algorithm implementations
+ *
+ * Daniel Takayama, Akshay Chiwhane
+ * October 24, 2015
+ */
+
 #include "quicksort.h"
 #include "mergesort.h"
 #include "heapsort.h"

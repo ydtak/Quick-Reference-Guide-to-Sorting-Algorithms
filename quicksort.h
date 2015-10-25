@@ -1,3 +1,10 @@
+/**
+ * quicksort.h
+ *
+ * Daniel Takayama
+ * October 24, 2015
+ */
+
 #ifndef EECS281_SORTINGALGORITHMS_QUICKSORT_H
 #define EECS281_SORTINGALGORITHMS_QUICKSORT_H
 

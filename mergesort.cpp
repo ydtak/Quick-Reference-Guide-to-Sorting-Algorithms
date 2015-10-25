@@ -1,12 +1,5 @@
-#include <iostream>
-#include <vector>
+#include "mergesort.h"
 using namespace std;
-
-// MARK: Method declerations
-void mergesort(vector<int>& vec);
-void mergesort(vector<int>& vec, vector<int>& helper, int low, int high);
-void merge(vector<int>& array, vector<int>& helper, int low, int mid, int high);
-
 
 // MARK: Method definitions
 
@@ -57,7 +50,7 @@ void merge(vector<int>& array, vector<int>& helper, int low, int mid, int high) 
     }
 }
 
-
+/*
 int main() {
     vector<int> test = {0, -3, 7, 6, 6, 5, 10};
     
@@ -66,3 +59,4 @@ int main() {
         cout << i << endl;
     }
 }
+*/

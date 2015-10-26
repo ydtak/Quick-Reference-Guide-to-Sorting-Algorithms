@@ -1,7 +1,7 @@
 #Sorting Algorithms Quick Reference
 
 ##Overview
-This is a quick reference guide for the sorting algorithms covered in University of Michigan's EECS 281 course. The repository also contains sample implementations for the various sorting algorithms.
+This is a quick reference guide for common sorting algorithms. The repository also contains sample implementations for the various sorting algorithms.
 
 <strong>
 Elementary Sorting Algorithms:

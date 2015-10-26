@@ -99,7 +99,10 @@ Merge sort is **stable** and **not adaptive**. Merge sort recursively partitions
 ####Heap Sort
 Heap sort is **not stable** and **not really adaptive**. Heap sort is accomplished using heap magic. First you heapify (O(n)) the list so the list becomes a heap (complete binary tree). Then you repeatedly pop (log(n)) the max of the heap and insert it into the sorted list.
 
-**Quick rundown:** heapify (O(n)) + pop (O(log(n)) n elements into sorted list so total time complexity is O(n\*log(n)).
+**Quick rundown:**
+(1) heapify (O(n))
+(2) pop n elements off heap into sorted list(O(log(n) each pop)
+Thus total time complexity is O(n\*log(n))
 - **Best Time:** O(n\*log(n))
 - **Average Time:** O(n\*log(n))
 - **Worst Time:** O(n\*log(n))
